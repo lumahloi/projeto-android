@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    background-color: lightgreen;
+}
+
+header {
+    background-image: linear-gradient(rgb(42, 202, 122), rgb(8, 95, 30) );
+    padding: 30px 30px 8px 12px;
+}
+
+header li {
+    margin-right: 15px;
+}
+
+header  a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+header li:hover {
+    color: black;
+}
+
+header, footer  p {
+    color: white;
+    text-align: center;
+}
+
+nav  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+section  p {
+    line-height: 1.5em;
+    text-indent: 1em;
+}
+
+section {
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.24);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+h2, h3 {
+    color: darkgreen;
+    background-image: linear-gradient(to right, rgba(194, 253, 194, 0.651), white);
+}   
+
+b {
+    color: darkgreen;
+}
+
+picture > img {
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+article {
+    background-color: lightgreen;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+article ul {
+    columns: 2;
+}
+
+h4 {
+    margin: -10px -10px 0px -10px;
+    color: white;
+    background-color: darkgreen;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+footer {
+    background-color: darkgreen;
+    padding: 1px;
+    margin-top: 15px;
+}
+
+footer p {
+    margin: 5px auto;
+}
+
+iframe {
+    display: block;
+    width: 70%;
+    margin: auto;
+
+}
